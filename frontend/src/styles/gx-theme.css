@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --gx-bg: #0b0c10;
+  --gx-sidebar: #1f2833;
+  --gx-accent: #66fcf1;
+  --gx-text: #c5c6c7;
+}
+
+body {
+  background-color: var(--gx-bg);
+  color: var(--gx-text);
+  overflow-x: hidden;
+}
+
+.gx-accent-text {
+  color: var(--gx-accent);
+  text-shadow: 0 0 10px rgba(102, 252, 241, 0.3);
+}
+
+.gx-panel {
+  background-color: rgba(31, 40, 51, 0.8);
+  border: 1px solid rgba(102, 252, 241, 0.1);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.gx-button {
+  background-color: var(--gx-accent);
+  color: var(--gx-bg);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.gx-button:hover {
+  box-shadow: 0 0 15px var(--gx-accent);
+  transform: translateY(-2px);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(102, 252, 241, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 252, 241, 0.5);
+}

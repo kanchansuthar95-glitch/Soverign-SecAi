@@ -1,0 +1,7 @@
+{
+  "name": "Sovereign SecAI",
+  "description": "A modular cybersecurity AI operating system for authorized bug bounty and lab workflows, featuring a Python FastAPI backend and a React frontend.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

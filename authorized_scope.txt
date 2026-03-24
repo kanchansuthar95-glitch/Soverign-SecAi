@@ -1,0 +1,6 @@
+# Authorized Scope of Work
+# Add one target per line. Use * for lab environments (CAUTION).
+
+example.com
+localhost
+127.0.0.1

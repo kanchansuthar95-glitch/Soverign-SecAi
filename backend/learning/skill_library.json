@@ -1,0 +1,14 @@
+{
+  "recon_subdomain": {
+    "name": "Subdomain Enumeration",
+    "description": "Finds all subdomains for a given target domain.",
+    "version": "1.0.0",
+    "tools": ["subfinder", "assetfinder"]
+  },
+  "vuln_scan": {
+    "name": "Vulnerability Scanning",
+    "description": "Scans a target for common web vulnerabilities.",
+    "version": "1.0.0",
+    "tools": ["nuclei", "nikto"]
+  }
+}
